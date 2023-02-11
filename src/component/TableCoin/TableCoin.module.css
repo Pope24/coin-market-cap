@@ -1,0 +1,26 @@
+.List__Select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Outline {
+  content: "";
+  border-left: 2px solid #908f8f;
+  height: 15px;
+}
+.Active {
+  background-color: rgb(240, 246, 255);
+  color: rgb(56, 97, 251);
+}
+.Title_Table {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0px;
+  color: rgb(34, 37, 49);
+  font-size: 12px;
+}
+th,
+td:not(:last-child) {
+  padding: 11px 10px;
+}

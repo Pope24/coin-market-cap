@@ -1,0 +1,42 @@
+.Header__Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 71px;
+}
+.Avatar {
+  width: 168px;
+  height: 50px;
+}
+.Menu__Features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Features__Header {
+  padding: 0 10px;
+}
+.Features__Header,
+.Search__List {
+  text-decoration: none;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #000;
+}
+.Left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Search__List {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Sub__Search__List {
+  margin-left: 10px;
+}

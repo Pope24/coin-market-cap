@@ -1,0 +1,27 @@
+.Color__red {
+  color: #ea3943;
+}
+.Color__green {
+  color: #16c784;
+}
+.Active {
+  color: #f6b87e;
+  cursor: pointer;
+}
+.Cursor__pointer {
+  cursor: pointer;
+}
+.Coin {
+  margin-inline-start: 5px;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 37, 49);
+  font-family: Inter, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    Helvetica, Arial, sans-serif;
+  height: 80px;
+}
+.Symbol__coin {
+  margin-inline-start: 6px;
+  color: rgb(128, 138, 157);
+}

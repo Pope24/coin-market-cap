@@ -1,0 +1,113 @@
+.Text__Align__Left {
+  text-align: start;
+}
+.Text__Align__Right {
+  text-align: end;
+}
+.Active__Tab__Links {
+  cursor: pointer;
+  color: #0060ff;
+  border-bottom: 3px solid #0060ff;
+}
+.Border__Table {
+  border-bottom: 1px solid #131619;
+}
+.Detail__Coin {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+.Header__Detail__Coin {
+  display: flex;
+  height: 90px;
+  border-bottom: 1px solid #dcdcdc;
+  justify-content: space-between;
+  align-items: center;
+}
+.Coin {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.MarginLeft__10 {
+  margin-left: 10px;
+}
+.Name__Coin,
+.Price__Coin {
+  font-size: 1.3rem;
+  color: #002358;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.Price__Coin {
+  margin-left: 30px;
+  font-size: 1.2rem !important;
+  color: #002358;
+}
+.Hero__Coin__Symbol {
+  color: #002358;
+  font-size: 1rem;
+  margin-bottom: -3px;
+}
+.Hero__Coin__Rank {
+  color: #002358;
+  border-color: #cee1ff;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 0px 4px;
+  white-space: nowrap;
+  margin: -4px 0 0 6px;
+}
+.Overview {
+  display: flex;
+  flex: 0.3;
+  justify-content: space-around;
+}
+.Tab__Links {
+  color: #002358;
+  font-size: 1rem;
+  font-weight: 700;
+  white-space: nowrap;
+  padding: 36px 0;
+}
+.Tab__Links:hover {
+  cursor: pointer;
+}
+.Container__Detail__Coin {
+  padding-top: 100px;
+}
+.Description__Coin {
+  display: flex;
+  align-items: center;
+}
+.Description,
+.Link__Description {
+  width: 50%;
+}
+.Description,
+.Title__Link {
+  margin-top: 80px;
+  font-size: 1.4rem;
+  color: #002358;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+.Description h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.Description p,
+.Path__Link {
+  letter-spacing: 0.05em;
+  font-size: 0.9rem;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.9;
+}
+.Type__Link {
+  font-size: 1rem;
+  color: #002358;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  white-space: 1;
+}

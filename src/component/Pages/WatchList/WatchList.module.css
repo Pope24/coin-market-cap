@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.Landing__WatchList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    Helvetica, Arial, sans-serif;
+}
+.Left,
+.Right {
+  width: 50%;
+}
+.Left {
+  line-height: 1.5;
+}
+.Title__First {
+  color: #3861fb;
+  font-size: 24px;
+  font-weight: 600;
+}
+.Title__Second {
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(34, 37, 49);
+}
+.Title__Detail__Title {
+  font-size: 16px;
+  color: #58667e;
+  margin: 16px 0px 40px;
+}
+.Create__WatchList {
+  align-items: center;
+  background: rgb(56, 97, 251);
+  border: 0px;
+  border-radius: 8px;
+  display: inline-flex;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  justify-content: center;
+  outline: 0px;
+  font-weight: 600;
+  width: auto;
+  height: 40px;
+  font-size: 14px;
+  padding: 0px 24px;
+  line-height: 24px;
+}
+.Login__Btn {
+  align-items: center;
+  background: transparent;
+  border: 0px;
+  border-radius: 8px;
+  display: inline-flex;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  justify-content: center;
+  outline: 0px;
+  font-weight: 600;
+  width: auto;
+  height: 40px;
+  font-size: 14px;
+  padding: 0px 24px;
+  line-height: 24px;
+}
+.Intro__App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Left__Intro,
+.Right__Intro {
+  width: 50%;
+}
+.Title__Intro__App {
+  position: relative;
+  top: 150px;
+  left: 50px;
+}
+.Title__Intro__App__First,
+.Title__Intro__App__Second {
+  color: rgb(34, 37, 49);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    Helvetica, Arial, sans-serif;
+}
+.Title__Intro__App__Second {
+  font-weight: 700;
+  font-size: 36px;
+}
+.Title__Intro__App__Third {
+  font-size: 14px;
+  font-weight: 400;
+  color: #58667e;
+  width: 50%;
+  margin-top: 8px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    Helvetica, Arial, sans-serif;
+}
+.Right__Intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Col_Left,
+.Col_Right {
+  width: 50%;
+}
+.Col_Right {
+  line-height: 1.5;
+}
+.Element__Col {
+  margin-left: 20%;
+}
+.Title__Feature {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(34, 37, 49);
+  font-family: Inter, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    Helvetica, Arial, sans-serif;
+}
+.Title__Modifier {
+  font-size: 14px;
+  font-weight: 400;
+  color: #58667e;
+  margin-top: 8px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    Helvetica, Arial, sans-serif;
+}
